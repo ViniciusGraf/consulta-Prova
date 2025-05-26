@@ -162,4 +162,13 @@ public class OrdemDecrescenteManual {
         // Saída: [8, 5, 4, 2, 1]
     }
 }
-
+    System.out.printf("%-10s | %-5s | %-10s | %-25s%n", "MATRICULA", "NOTA", "FREQUENCIA", "SITUAÇÃO");
+Código	Significado
+%	       | Início do marcador de formatação
+-	       | Alinha o conteúdo à esquerda (sem - = alinhado à direita)
+10, 5, 25  | Define a largura mínima do campo (quantidade de espaços reservados)
+.1f	       | Mostra 1 casa decimal para número do tipo float ou double
+d	       | Valor do tipo inteiro (int)
+f	       | Valor do tipo decimal (float ou double)
+s	       | Valor do tipo String
+%n	       | Quebra de linha (igual ao \n, mas mais seguro em sistemas diferentes)
